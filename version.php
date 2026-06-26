@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_site_info';
-$plugin->release = '0.1.3';
+$plugin->release = '0.1.03';
 $plugin->version = 2025072303;
 $plugin->requires = 2022112800;
 $plugin->maturity = MATURITY_STABLE;
