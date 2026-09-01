@@ -1,12 +1,12 @@
 # Dados para envio ao INPI
 
-- Título: **H5P.CustomizableInteractiveBook (plugin H5P)**
-- Linguagens de programação: `JavaScript`
-- Classificação: `IF-01;IF-07;PD-01`
+- Título: **block_site_info (plugin Moodle do tipo bloco)**
+- Linguagens de programação: `PHP`, `HTML`, `CSS`, `Mustache`
+- Classificação: `AP01 - Aplicativos`, `EA01 - Educação / Aprendizagem`, `GI01 - Gerenciador de Informações`, `IN01 - Internet / Web`
 - Data de criação: `09/05/2025`
-- Apresentação: 
-- Descrição: 
-- Aplicação: 
-- Futuros: 
-- Viabilidade Econômica: 
-- Programas Similares: 
+- Apresentação: O block_site_info é um plugin do tipo bloco para o Moodle voltado à apresentação de indicadores institucionais, métricas de impacto educacional ("O Moodle em números") e conteúdos institucionais personalizáveis. Posicionado nas páginas principais da plataforma, ele fortalece a identidade institucional, a prestação de contas e a transparência pública dos resultados educacionais.
+- Descrição: O programa provê uma estrutura de apresentação responsiva em colunas que destaca as principais métricas da instituição (ex.: anos de história, volume de cursos ofertados, quantidade total de estudantes atendidos e certificados de conclusão emitidos), acompanhada de botões de chamada para ação (call-to-action) para o portal institucional. O bloco possui integração nativa com o editor de texto rico do Moodle (`htmlcontent`), permitindo que administradores personalizem integralmente o texto, números e formatação sem manipular arquivos do servidor. Sua folha de estilos (`styles.css`) e template Mustache (`templates/site_info.mustache`) são desenhados para herdar automaticamente a tipografia e as variáveis de cores do tema da suíte (como `--font-heading7`, `--font-heading2`, `--general-white`), assegurando consistência visual e responsividade em dispositivos móveis.
+- Aplicação: O block_site_info é aplicado nas páginas de entrada (Site Index / Frontpage) e no painel do estudante (Dashboard) em ambientes Moodle institucionais do IFRN, de outros institutos e universidades federais e de órgãos públicos. É utilizado para recepção de novos usuários, divulgação de conquistas institucionais e transparência dos números da educação a distância e continuada.
+- Futuros: Entre os desenvolvimentos futuros previstos estão a conexão direta com consultas de banco de dados e APIs do Moodle/SUAP para atualização dinâmica e automatizada dos contadores em tempo real (total de inscritos ativos, certificados emitidos e cursos disponíveis), suporte a múltiplos layouts pré-definidos (cards, banners horizontais ou grades com ícones) e efeitos de animação numérica progressiva (counter-up) compatíveis com as preferências de acessibilidade do usuário.
+- Viabilidade Econômica: A tecnologia é facilmente transferível e adaptável para qualquer instituição pública ou privada de ensino que utilize o Moodle. Ela reduz a necessidade de contratação de serviços de design e desenvolvimento frontend para customização de blocos na página inicial, permitindo que a própria equipe de comunicação ou gestão acadêmica atualize dados de impacto institucional de forma simples e padronizada.
+- Programas Similares: Programas similares incluem o bloco HTML nativo do Moodle e blocos de marketing presentes em temas comerciais pagos. O block_site_info diferencia-se por entregar um layout pré-estruturado especificamente para indicadores de impacto da educação pública, com integração às variáveis CSS do Tema SUAP, total responsividade e custo zero de licenciamento.
